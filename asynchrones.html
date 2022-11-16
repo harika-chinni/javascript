@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		/*setTimeout(()=>{
+			console.log("amazon")
+		},8000)
+		console.log("flipkart")
+		console.log("meeshow")*/
+
+		let promiseObj=new Promise((resolve,reject)=>{
+			var time =Math.random();
+			console.log(time)
+			if(time<.8)
+				return resolve("date present in the server")
+			else
+				return reject("date crashed")
+		})
+		console.log(promiseObj)
+		console.log("hello everyone")
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
