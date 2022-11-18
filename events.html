@@ -1,0 +1,70 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button onclick="demo()">submit</button>
+	<script type="text/javascript">
+		function demo(){
+			alert("danger")
+		}
+	</script>
+
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<script type="text/javascript">
+		function save(){
+			var s=document.getElementById("event").innerHTML
+			console.log(s)
+			var r=document.getElementById("india").innerHTML
+			console.log(r)
+			var user=document.getElementById("user").value
+			console.log(user)
+			var intro=document.getElementByClassName("intro");
+			var list=document.getElementByTagName("li");
+			for(var i=0;i<intro.length;i++){
+				console.log(intro[i.innerHTML])
+			}
+			for(var j=0;j<list.length;j++){
+				console.log(list[j].innerHTML)
+			}
+		}
+	</script>
+</head>
+<body>
+	<input id="user"/>
+	<h1 id="event">events in javascript</h1>
+	<p id="India">i love india</p>
+	<button onclick="save()">submit</button>
+	<p class="intro">how are you</p>
+	<h4 class="intro">hoe it is going on</h4>
+	<p class="intro">believe yourself</p>
+
+	<ul>
+		<li>100</li>
+		<li>100</li>
+		<li>100</li>
+		<li>100</li>
+		<li>100</li>
+		<li>100</li>
+		<li>100</li>
+		<li>100</li>
+		<li>100</li>
+		<li>100</li>
+		<li>100</li>
+	
+	</ul>
+
+</body>
+</html>
